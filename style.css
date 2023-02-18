@@ -1,0 +1,60 @@
+.header-container {
+    background: #1090D81A;
+    margin: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-break {
+    font-size: 12px;
+}
+
+.btn-blog{
+    background: #1090D8;
+    border-radius: 5px;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.shape-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.img-box{
+    border: 1px solid sandybrown;
+    border-radius: 5px;
+}
+
+.img-box:hover{
+    background-color: lightpink;
+}
+
+img{
+    width: 275px;
+    height: 250px;
+}
+
+input[type="text"] {
+    width:45px;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+.btn{
+    background: #1090D8;
+    width: 75%;
+    margin-left:25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+}
