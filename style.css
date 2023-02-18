@@ -30,6 +30,8 @@ nav {
 .img-box{
     border: 1px solid sandybrown;
     border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 25px;
 }
 
 .img-box:hover{
@@ -57,4 +59,5 @@ input[type="text"] {
     padding-bottom: 10px;
     border-radius: 5px;
     color:white;
-}
+};
+
