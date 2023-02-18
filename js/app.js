@@ -148,6 +148,35 @@ document.getElementById('pentagon-btn-calculate').addEventListener('click',funct
     pentagonArea.innerHTML =  pentagonAreaValue.toFixed(2);
 });
 
+//Ellipse part;
+
+document.getElementById('ellipse-btn-calculate').addEventListener('click', function () {
+    const majorAxis = document.getElementById('major-axis');
+    const majorAxisValue = majorAxis.value;
+    majorAxis.value = '';
+
+    //majorAxisValue validation part;
+
+    if (isNaN(majorAxisValue) || majorAxisValue == 0 || majorAxisValue == '') {
+        alert('Not a Number!');
+    };
+
+    const minorAxis = document.getElementById('minor-axis');
+    const minorAxisValue = minorAxis.value;
+    minorAxis.value = '';
+
+    //minorAxisValue validation part;
+
+    if (isNaN(minorAxisValue) || minorAxisValue == 0 || minorAxisValue == '') {
+        alert('Not a Number!');
+    };
+
+    const areaOfEllipse = document.getElementById('area-ellipse');
+    const areaOfEllipseValue = 3.1416 * majorAxisValue * minorAxisValue;
+    areaOfEllipse.innerText = areaOfEllipseValue.toFixed(2);
+});
+
+
 
 
 
