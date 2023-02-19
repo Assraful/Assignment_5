@@ -32,15 +32,13 @@ nav {
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 25px;
+    background-color: #b5a236;
+    transition: background-color 0.3s ease-in;
+     
 }
 
 .img-box:hover{
     background-color: lightpink;
-}
-
-img{
-    width: 275px;
-    height: 250px;
 }
 
 input[type="text"] {
